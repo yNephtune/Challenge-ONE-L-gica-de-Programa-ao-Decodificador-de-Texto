@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografando</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="conteudo">
+
+            <textarea class="text-area" placeholder="Digite seu texto"></textarea>
+
+        </section>
+
+        <section class="botoes">
+            <div class="alerta">
+                <img src="./assets/img/alerta.svg" alt="alerta">
+                <p>Somente letras minúsculas e sem acento.</p>
+            </div>
+            <button class="cripto" onclick="btn_encriptar()">Criptografar</button>
+            <button class="descripto" onclick="btn_desencriptar()">Descriptografar</button>
+
+        </section>
+
+        <section class="caixa">
+            <textarea src class="mensagem"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
